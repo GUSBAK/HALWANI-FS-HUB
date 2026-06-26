@@ -1,0 +1,56 @@
+:root {
+  --green: #087a35;
+  --green-dark: #045924;
+  --green-light: #e7f5ec;
+  --cream: #f7f3eb;
+  --card: #ffffff;
+  --border: #e5dacd;
+  --text: #171717;
+  --muted: #737373;
+  --danger: #9b111e;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: var(--cream); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+.app-shell { max-width: 430px; margin: 0 auto; min-height: 100vh; background: var(--cream); padding-bottom: 92px; }
+.header { background: linear-gradient(135deg, var(--green), var(--green-dark)); color: white; padding: 28px 18px 30px; border-bottom-left-radius: 28px; border-bottom-right-radius: 28px; box-shadow: 0 18px 34px rgba(8,122,53,.22); }
+.header-row { display: flex; align-items: center; gap: 14px; justify-content: space-between; }
+.logo-box { width: 58px; height: 58px; background: white; border-radius: 15px; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.logo-box img { width: 52px; height: 52px; object-fit: contain; }
+.header h1 { margin: 0; font-size: 30px; line-height: 1; }
+.header p { margin: 4px 0 0; opacity: .9; font-weight: 700; }
+.export-btn { border: 1px solid rgba(255,255,255,.6); background: rgba(255,255,255,.15); color:white; padding: 12px 18px; border-radius: 999px; font-weight: 800; }
+.content { padding: 18px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 24px; padding: 18px; margin-bottom: 16px; box-shadow: 0 4px 16px rgba(0,0,0,.03); }
+.card h2, .card h3 { margin: 0 0 10px; }
+.muted { color: var(--muted); }
+.name { font-size: 30px; font-weight: 900; margin: 4px 0; }
+.kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.kpi { background: white; border: 1px solid var(--border); border-radius: 22px; padding: 18px; min-height: 108px; }
+.kpi strong { color: var(--green); display:block; font-size: 28px; }
+.kpi span { color: var(--muted); font-weight: 800; }
+.primary-action { width: 100%; border: none; background: var(--green); color: white; border-radius: 24px; padding: 22px; font-size: 24px; font-weight: 950; margin: 8px 0 14px; }
+.action-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.action-btn { border:none; background: var(--green); color:white; border-radius:22px; padding:20px 10px; font-weight:900; font-size:18px; }
+.secondary-btn { border: 1px solid var(--border); background: white; color: var(--green); border-radius: 18px; padding: 14px; font-weight: 900; }
+.danger-btn { border: none; background: var(--danger); color: white; border-radius: 18px; padding: 14px; font-weight: 900; }
+.journey-item { display:flex; justify-content:space-between; gap:10px; align-items:center; padding:14px 0; border-top:1px solid var(--border); }
+.journey-item:first-of-type { border-top:0; }
+.badge { background: var(--green-light); color: var(--green); border-radius:999px; padding:6px 10px; font-weight:900; font-size:12px; white-space:nowrap; }
+.form-grid { display:grid; gap: 12px; }
+label { font-weight: 900; font-size: 13px; color: #444; }
+input, select, textarea { width:100%; border:1px solid var(--border); border-radius:14px; padding:12px; background:white; }
+textarea { min-height: 96px; resize: vertical; }
+.check-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.check-card { border:1px solid var(--border); border-radius:14px; padding:12px; background:white; font-weight:800; }
+.check-card input { width:auto; margin-right:6px; }
+.status { padding:12px; border-radius:14px; background: var(--green-light); color: var(--green); font-weight:900; }
+.status.bad { background:#fdebed; color: var(--danger); }
+.bottom-nav { position: fixed; left:50%; transform:translateX(-50%); bottom:0; width:min(430px, 100%); display:grid; grid-template-columns: repeat(5,1fr); gap:6px; background:white; border-top:1px solid var(--border); padding:12px 10px 18px; }
+.nav-btn { border:none; background:transparent; color: var(--muted); font-weight:900; padding:10px 4px; border-radius:16px; }
+.nav-btn.active { background: var(--cream); color: var(--green); }
+.login-card { margin-top: 42px; text-align:center; }
+.login-logo { width:96px; height:96px; object-fit:contain; margin:auto; display:block; }
+.small { font-size: 12px; }

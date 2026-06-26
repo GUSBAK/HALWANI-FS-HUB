@@ -1,0 +1,11 @@
+{
+  "name": "Halwani Food Service CRM",
+  "short_name": "Halwani FS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f3eb",
+  "theme_color": "#087a35",
+  "icons": [
+    { "src": "/halwani-logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
