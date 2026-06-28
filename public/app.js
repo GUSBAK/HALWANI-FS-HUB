@@ -154,7 +154,7 @@ function dashboard(){
   const alerts=visits.filter(v=>(v.competitor||v.competitorNews)&&(!isSalesman()||normalize(v.salesman)===normalize(currentUser.name))).slice(-3).reverse();
   const journey=todayJourney();
   const collections=collectionSummary();
-  screen(`<div class="release-mark">Collections &amp; Journey Plan update · 28 Jun 2026</div><section class="welcome card">
+  screen(`<section class="welcome card">
     <div class="muted big">Good morning</div>
     <h2>${esc(currentUser?.name||'Salesman')}</h2>
     <div class="meta">${esc(currentUser?.role||'Salesman')}${currentUser?.branch?' · '+esc(currentUser.branch):''}</div>
