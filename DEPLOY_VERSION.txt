@@ -1,4 +1,1 @@
-HALWANI FS APP
-Release: Collections & Journey Plan
-Version: 1.1
-Date: 28 June 2026
+topbar-style-2026-06-29

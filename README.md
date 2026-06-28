@@ -26,3 +26,6 @@ Example:
 `https://your-app.vercel.app/?release=collections-20260628`
 
 If the iPhone home screen app still shows the older layout, close it completely, remove its home-screen icon, reopen the link in Safari, and choose **Share > Add to Home Screen** again.
+
+
+Updated 2026-06-29: Top header redesigned to match approved green banner style.
