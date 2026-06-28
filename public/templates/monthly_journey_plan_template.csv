@@ -1,0 +1,3 @@
+month,salesman,date,time,customerCode,customerName,branch,city,area,collectionTargetSAR,visitObjective,notes
+2026-07,Ahmed Nabil,2026-07-01,08:30,142407,شركة المأكولات السريعة,Jeddah,Jeddah,Prince Sultan,25000,Collection,Collect June overdue amount
+2026-07,Ahmed Nabil,2026-07-01,10:00,121201,شركة كاتر يون للتموين القابضة - جدة,Jeddah,Jeddah,Al Hamra,0,Product Presentation,Present Mini Glass Jars
