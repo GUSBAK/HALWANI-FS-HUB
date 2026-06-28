@@ -29,3 +29,6 @@ If the iPhone home screen app still shows the older layout, close it completely,
 
 
 Updated 2026-06-29: Top header redesigned to match approved green banner style.
+
+
+Update 2026-06-29: Header title is responsive and always fully visible, wrapping on smaller screens instead of truncating.
